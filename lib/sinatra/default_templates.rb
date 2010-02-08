@@ -15,7 +15,7 @@ module Sinatra
     end
     
     def self.registered(app)
-      app.helpers DefaultTemplates::Helpers;
+      app.helpers DefaultTemplates::Helpers
       
       app.not_found do
         render_template_if_exists!
