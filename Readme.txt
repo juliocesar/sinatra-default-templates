@@ -13,6 +13,12 @@ end
 if you have the templates in place (views/foo.haml, views/bar.haml in the above case), they'll get
 rendered automagically.
 
+# Installation
+
+Make sure you got http://gemcutter.org in your gem sources. Then simply
+
+$ sudo gem install sinatra-default-templates
+
 # How to use
 
 Because of a bug in Sinatra 0.9.4, extensions cannot set routes, or for that matter, define
